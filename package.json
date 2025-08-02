@@ -1,0 +1,12 @@
+{
+  "name": "sass-project",
+  "version": "1.0.0",
+  "scripts": {
+    "build:sass": "sass src/scss/main.scss design/style.css --no-source-map --style=compressed",
+    "watch:sass": "sass --watch src/scss/main.scss design/style.css"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "sass": "^1.69.0"
+  }
+}

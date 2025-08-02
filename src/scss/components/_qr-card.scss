@@ -1,0 +1,21 @@
+@use '../utils/variables' as *;
+
+.qr-card {
+  width: 20rem;
+  height: 31.25rem;
+  background-color: $color-white;
+  border-radius: $space-250;
+  padding: 1rem;
+  text-align: center;
+
+  &__img {
+    width: 100%;
+    border-radius: $space-100;
+    display: block;
+  }
+
+  & > :not(:first-child) {
+    margin-left: $space-200;
+    margin-right: $space-200;
+  }
+}
